@@ -1,5 +1,4 @@
-var url = window.location.pathname;
-var randomName = url.substring(url.lastIndexOf("/") + 1);
+var randomName = "user";
 
 const main = async () => {
   VoxeetSDK.initialize(
